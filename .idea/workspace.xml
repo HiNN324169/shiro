@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77b03ca5-293c-4b14-b584-d864ab04b327" name="Default Changelist" comment="" />
+    <list default="true" id="77b03ca5-293c-4b14-b584-d864ab04b327" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/domain/ActiveUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/relam/auth_action_and_cation/AuthRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/relam/auth_action_and_cation/MyAuthorizingRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/relam/auth_cation/AuthRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/relam/auth_cation/MyAuthenticationRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nn/shiro/Authorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nn/shiro/Authorization.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -23,7 +40,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HierarchyBrowserManager">
-    <option name="SCOPE" value="This Class" />
+    <option name="SORT_ALPHABETICALLY" value="true" />
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="H:\nn\workspace\IDEA\newSpace1\shiro\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -33,6 +58,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bWS1yiFGgdSE8bdZkWFpErp4A0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -44,6 +70,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -57,7 +84,43 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunManager" selected="Application.Authorization">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nn.relam.auth_action_and_cation" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.nn.domain" />
+      <recent name="com.nn.service.impl" />
+      <recent name="com.nn.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AuthRealm (1)">
+    <configuration name="AuthRealm (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nn.relam.auth_action_and_cation.AuthRealm" />
+      <module name="shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nn.relam.auth_action_and_cation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthRealm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nn.relam.auth_cation.AuthRealm" />
+      <module name="shiro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nn.relam.auth_cation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Authorization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nn.shiro.Authorization" />
       <module name="shiro" />
@@ -86,6 +149,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AuthRealm (1)" />
+        <item itemvalue="Application.AuthRealm" />
         <item itemvalue="Application.Authorization" />
         <item itemvalue="Application.Test" />
       </list>
@@ -113,41 +178,102 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588746145024</updated>
-      <workItem from="1588746148331" duration="6258000" />
+      <workItem from="1588746148331" duration="7019000" />
+      <workItem from="1588904911003" duration="13581000" />
     </task>
+    <task id="LOCAL-00001" summary="java 安全框架 shiro">
+      <created>1588820537291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588820537291</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java 安全框架 shiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="java 安全框架 shiro" />
   </component>
   <component name="WindowStateProjectService">
     <state x="424" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588746257574">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="424" y="187" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1588746257574" />
+    <state x="488" y="94" key="#com.intellij.ide.util.MemberChooser" timestamp="1588922241567">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1588922241567" />
+    <state x="301" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588905008934">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="301" y="309" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1588905008934" />
+    <state x="283" y="0" key="CommitChangelistDialog2" timestamp="1588820527889">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="283" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1588820527889" />
     <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1588820445736">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1588820445736" />
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1588751809670">
+    <state width="1323" height="224" key="GridCell.Tab.0.bottom" timestamp="1588924408958">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1588751809670" />
-    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1588751809670">
+    <state width="1323" height="224" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1588924408958" />
+    <state width="1323" height="224" key="GridCell.Tab.0.center" timestamp="1588924408957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1588751809670" />
-    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1588751809669">
+    <state width="1323" height="224" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1588924408957" />
+    <state width="1323" height="224" key="GridCell.Tab.0.left" timestamp="1588924408957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1588751809669" />
-    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1588751809670">
+    <state width="1323" height="224" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1588924408957" />
+    <state width="1323" height="224" key="GridCell.Tab.0.right" timestamp="1588924408957">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1588751809670" />
+    <state width="1323" height="224" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1588924408957" />
+    <state width="1323" height="257" key="GridCell.Tab.1.bottom" timestamp="1588924371916">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="257" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1588924371916" />
+    <state width="1323" height="257" key="GridCell.Tab.1.center" timestamp="1588924371916">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="257" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1588924371916" />
+    <state width="1323" height="257" key="GridCell.Tab.1.left" timestamp="1588924371916">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="257" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1588924371916" />
+    <state width="1323" height="257" key="GridCell.Tab.1.right" timestamp="1588924371916">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="257" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1588924371916" />
+    <state x="213" y="39" key="Maven.ArtifactSearchDialog" timestamp="1588907782054">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="213" y="39" key="Maven.ArtifactSearchDialog/0.0.1366.768@0.0.1366.768" timestamp="1588907782054" />
     <state x="184" y="26" key="SettingsEditor" timestamp="1588750066117">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1588750066117" />
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2" timestamp="1588820558177">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1588820558177" />
+    <state x="482" y="163" key="chooseDestDirectoryDialog" timestamp="1588921579036">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="482" y="163" key="chooseDestDirectoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1588921579036" />
+    <state x="475" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588905626580">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="475" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1588905626580" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1588905107974">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1588905107974" />
   </component>
 </project>
