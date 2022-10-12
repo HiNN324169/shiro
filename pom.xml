@@ -9,7 +9,7 @@
     <version>1.0</version>
 
     <properties>
-        <shiro.version>1.5.3</shiro.version>
+        <shiro.version>1.10.0</shiro.version>
         <logging.version>1.2</logging.version>
     </properties>
 
